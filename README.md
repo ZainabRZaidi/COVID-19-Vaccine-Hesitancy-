@@ -7,3 +7,6 @@ Karunasekera, Jamie Evans, and Yoshihisa Kashima, "Demystifying the COVID-19 vac
 Data: 
 The tweet_ids in this dataset are extracted from Rabindra Lamsal's tweet dataset for COVID-19 (https://ieee-dataport.org/open-access/coronavirus-covid-19-tweets-dataset) using the keywords `vaccine', `vaccination', `vax', `vac', `jab', and `shot'.
 Stance column contains stances calculated using stance detection tool based on OpenAI's GPT model (https://towardsdatascience.com/transfer-learning-in-nlp-for-tweet-stance-classification-8ab014da8dde). Details are given in the above mentioned paper.
+
+Code:
+keyword_classes_all.py process the data (tweets) and classify them into different topics. The keywords related to topics are stored in keywords_classes.csv
